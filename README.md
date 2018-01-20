@@ -17,3 +17,5 @@ Example: Deploy-Application.exe -UpdateType Display
   
 Example: Deploy-Application.exe  
   Result: Updates ALL the drivers on the workstation
+
+Note: Make sure if you have a BIOS password on the system you update the PW in the script, if you do not employ a bios pw commment out the cctk lines of the code.
