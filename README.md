@@ -1,7 +1,6 @@
 # Dell-Driver-Updates-PSADTK
-Dell Driver update w/ Powershell Application Deployment ToolKit
+Dell Driver update w/ Powershell Application Deployment ToolKit. This package for SCCM will use Dell's Command Update command line to scan the computers for hardware, then cross check it with Dell's model catalog and install the drivers from Dell's site. This includes Bios and Drivers. 
 
-This now wrapped in the Powershell App Deployment Toolkit
 
 Added switch for UpdateType (All, Bios, Network, Display)
   Default: All
